@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitify</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/Gym.jpg');
+    }
+    
+    .left {
+        display: inline-block;
+        border: 2px solid red; 
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+       
+    }
+    .mid {
+       display: block;
+       width: 52%;
+       margin: 23px auto;
+       
+    }
+
+    .right {
+        position: absolute;
+        right:35px;
+        top:0px;
+        display: inline-block;
+    }
+
+    .navbar{
+        display:inline-block;
+    }
+
+    .navbar li{
+        display:inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+
+    </style>
+    <body>
+        <header class="header">
+        <!-- Left box for logo-->
+        <div class="menu-bar">
+          <h1 class="logo">Fit<span>Ify.</span></h1>
+          <ul>
+            <li><a href="Index.html" class="active">Home</a></li>
+            <li><a href="About.html" class="active">About Us</a></li>
+            <li><a href="Calculator.html" class="active">Fitness Calculator</a></li>
+            <li><a href="Workouts.html">Workouts <i class="fas fa-caret-down"></i></a>
+    
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="Cardio.html">Cardio Training</a></li>
+                        <li><a href="Strength.html">Weight Training</a></li>
+                </div>
+                </li>
+                <li><a href="forms.html" class="active">Forms</li>
+
+            <li><a href="Contact.html"class="active">Contact</a></li>
+          </ul>
+        </div>
+      </header>   
+    <!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+  <div id="one-off-pricing" style="width:800px; overflow: hidden;">
+
+    <div id="one-off-pricing-1" style="width:370px;height:200px;border: 0px solid #cecece;float: left;margin-top:20px;">
+
+    </div>
+
+    <div id="one-off-pricing-2" style="width:370px;height:300px;border: 0px solid #cecece;display: inline-block;margin-top: 20px;">
+
+    </div>
+
+</div>
+
+  
+
+   
+
+ <div class=”Cart-Items”>
+
+<div class=”image-box”>
+
+               
+
+</div>
+
+ </div>
+<div class=”counter”></div>
+
+<div class=”prices”></div>
+
+</div>
+
+
+    <h3>Payment Form</h3>
+
+  <label> First name: <input type="text" name = "name" size= "10"
+
+  maxlength="100"></label>
+
+    <br>
+    
+
+   <label>Last name :<input type ="text" name ="last name" size ="10"
+
+ maxlength ="100"></label>
+
+    <br>
+
+    <br>
+
+    <label>Address 1 :<input type ="text" name ="address 1" size ="10"
+    maxlength ="100"></label>
+
+  <br>
+  <br>
+
+    <label>Address 2 :<input type ="text" name ="address 2" size ="10"
+
+    maxlength ="100"></label>
+
+    <br>
+    <br>
+
+    <label> County :<input type ="text" name ="county" size ="10"
+    maxlength ="100"></label>
+
+  </p>
+
+  <p>Credit Card Type:</p><br>
+  <label><input type="radio" name="credit card" value="Visa" /> Visa</label><br>
+  <label><input type="radio" name="credit card" value="Visa Debit" />Visa Debit</label><br>
+  <label><input type="radio" name="credit card" value="Mastercard" />Mastercard</label><br>
+  <label><input type="radio" name="credit card" value="American Express" />American Express</label>
+
+   </p>
+   
+  <li><label> Credit Card Number: <input type="number" name = "card number" size= "15"
+   maxlength="16"></label><br>
+
+   <li><label for ="Expiration Date">Expiration Date:</label>
+   <select name ="referrer" id = "expiration date">
+   
+   <option value ="january">January</option>
+   <option value ="febuary">Febuary</option>
+   <option value ="march">March</option>
+   <option value ="april">April</option>
+   <option value ="may">May</option>
+   <option value ="june">June</option>
+   <option value ="july">July</option>
+   <option value ="august">August</option>
+   <option value ="september">September</option>
+   <option value ="october">October</option>
+   <option value ="november">November</option>
+   <option value ="december">December</option>
+ </select>
+
+ <li><label for ="Year">Year:</label>
+ <select name ="referrer" id = "year">
+
+  <option value ="2022">2022</option>
+  <option value ="2023">2023</option>
+  <option value ="2024">2024</option>
+  
+  </select><br>
+  
+  <br>
+
+ <!--Comments-->
+
+  <p style="font-weight:bold;"> *If for any reason you were unable to use your card plesea let us know down below.</p>
+
+  <label for="comments"> Comments: </label><br>
+  <textarea rows="5" cols ="50" id= "comments"></textarea>
+ 
+ </p>
+ <!--Submit-->
+
+ <label><input type="checkbox" name ="submit" checked ="checked"/>Submit Payment</label>
+  <br>
+
+   <input type="submit" value ="Submit Payment"/>
+
+  </form>  <div id="one-off-pricing" style="width:800px; overflow: hidden;">
+
+    <div id="one-off-pricing-1" style="width:370px;height:200px;border: 0px solid #cecece;float: left;margin-top:20px;">
+
+    </div>
+
+    <div id="one-off-pricing-2" style="width:370px;height:300px;border: 0px solid #cecece;display: inline-block;margin-top: 20px;">
+
+    </div>
+
+</div>
+
+  
+
+   
+
+ <div class=”Cart-Items”>
+
+<div class=”image-box”>
+
+  
+
+</div>
+

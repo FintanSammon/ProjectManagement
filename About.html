@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitify</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/Gym.jpg');
+    }
+    
+    .left {
+        display: inline-block;
+        border: 2px solid red; 
+        position: absolute;
+        left: 34px;
+        top: 10px;
+
+       
+    }
+    .mid {
+       display: block;
+       width: 52%;
+       margin: 23px auto;
+       
+    }
+
+    .right {
+        position: absolute;
+        right:35px;
+        top:0px;
+        display: inline-block;
+    }
+
+    .navbar{
+        display:inline-block;
+    }
+
+    .navbar li{
+        display:inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+
+    </style>
+    <body>
+      <header class="header">
+      <!-- Left box for logo-->
+      <div class="menu-bar">
+        <h1 class="logo">Fit<span>Ify.</span></h1>
+        <ul>
+          <li><a href="Index.html" class="active">Home</a></li>
+          <li><a href="About.html" class="active">About Us</a></li>
+          <li><a href="Calculator.html" class="active">Fitness Calculator</a></li>
+          <li><a href="Workouts.html">Workouts <i class="fas fa-caret-down"></i></a>
+  
+              <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="Cardio.html">Cardio Training</a></li>
+                    <li><a href="Strength.html">Weight Training</a></li>
+              </div>
+              </li>
+              <li><a href="forms.html">Forms</li>
+
+          <li><a href="Contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </header>
+   
+	<!--Font Awesome Kit -->
+	<script src="https://kit.fontawesome.com/c820918012.js" crossorigin="anonymous"></script>
+	
+
+      
+      <div class="wrapper">
+        <div class="hr">
+          <hr>
+          <h3>Our Mission</h3>
+          <hr>
+        </div>
+  
+        <p class="mission-txt">"To provide fitness at a low cost"</p>  
+      <br> <br>
+
+
+      <img align="left" src="img/about.jpg" width="300" height="300">   
+      <div class="about-section">
+        <div class="inner-section">
+          <h1>About us</h1>
+          <p class="text-white">
+            Welcome to Fitify. We are committed to helping our customers achieve their goals.
+          </p>
+		<h2>Our history</h2>
+          <p class="text-white">
+            Founded in 2022 by a group of Digital Media Students, Fitify has come a long way from its beginnings. We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please feel free to contact us.
+          </p>
+        </div>
+      </div>
+    </div>
+
+	<br> <br>
+
+  <footer class="text-center text-lg-start mt-auto bg-light white text-muted">
+   
+    <section>
+   <div class="container text-center text-md-start mt-5">
+     <!-- Grid row -->
+     <div class="row">
+       <!-- Grid column -->
+       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-2">
+         <!-- Content -->
+         <h6 class="text-uppercase fw-bold mb-4">
+           <i class="fas  fa-headphones me-3"></i>Fitify </h6>
+  <div class="input-group mb-3 mt-4"> 
+ <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2"> 
+<button class="btn btn-dark border-rad" type="button" id="button-addon2">Subscribe</button> 
+</div>
+
+       </div>
+ 
+
+       <!-- Grid column -->
+       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-2">
+ <h6> Social media </h6>
+ <a href="" class="me-4 text-reset">
+       <i class="fab fa-facebook-f"></i></a>
+
+       <a href="" class="me-4 text-reset">
+       <i class="fab fa-twitter"></i></a>
+
+       <a href="" class="me-4 text-reset">
+       <i class="fab fa-instagram"></i></a>
+       
+       <a href="" class="me-4 text-reset">
+       <i class="fab fa-pinterest"></i></a>
+ </div>
+      
+ <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-2">
+ <h6> Payment Options</h6>
+ <a href="" class="me-4 text-reset">
+       <i class="fab fa-cc-mastercard"></i></a>
+ <a href="" class="me-4 text-reset">
+       <i class="fab fa-paypal"></i></a>
+ <a href="" class="me-4 text-reset">
+       <i class="fab fa-apple-pay"></i></a>
+ <a href="" class="me-4 text-reset">
+   <i class="fab fa-cc-visa"></i> </a>
+       </div>
+     </div>
+   </div>
+      </div>
+ </section>
+</footer>
+
+
+</html>
+</body>
