@@ -1,0 +1,283 @@
+
+
+html {
+	box-sizing: border-box;
+ }
+
+body {
+background-color: grey !important;
+font-family: 'Baloo Bhai', cursive;
+margin: 0px;
+padding: 0px;
+
+}
+
+.navbar li{
+        font-size: 15px;
+    }
+
+.navbar li a{
+        color: white;
+        text-decoration: none;
+    }
+  
+    .left {
+        display: inline-block;
+        border: 2px solid red; 
+        position: absolute;
+        left: 34px;
+        top: 10px;
+
+       
+    }
+    .mid {
+       display: block;
+       width: 52%;
+       margin: 23px auto;
+       
+    }
+
+    .right {
+        position: absolute;
+        right:35px;
+        top:0px;
+        display: inline-block;
+    }
+
+    .navbar{
+        display:inline-block;
+    }
+
+    .navbar li{
+        display:inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+
+
+    /* Header */
+    #hero{
+        background-image: url(img/header.jpg);
+        min-height: 90vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top 25% right 0;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        border: 1px solid white;
+        color: white;
+    }
+    
+    #hero h4, h1{
+        padding-bottom: 15px;
+    }
+
+/* services section css */
+.servicesText.card {
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+
+.servicesText:hover {
+    border: 1px solid #fff;
+}
+
+/* Testimonials */
+
+
+.testimonial{
+	background: #fff;
+	padding: 30px;
+}
+
+.inner{
+    text-align: center;
+    color: black;
+}
+.testimonial img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.name{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+
+.star{
+	color: rgb(243, 181, 25);
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+	.col{
+		flex: 100%;
+		max-width: 80%;
+	}
+}
+
+/* New Arrivals */
+
+
+#product1{
+	text-align: center;
+    color: black;
+}
+
+.text-center{
+    color: black;
+}
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+#product1 .pro{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border-radius: 25px;
+	cursor: pointer;
+	margin: 15px 0;
+
+}
+
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+#product1 .pro .des{
+	text-align: start;
+	padding: 10px 0;
+}
+
+#product1 .pro .des span{
+	color: black;
+	font-size: 16px;
+}
+
+#product1 .pro .des .h5{
+	padding-top: 7px;
+	color: #000;
+	font-size: 14px;
+}
+
+#product1 .pro .des i{
+	font-size: 12px;
+	color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4{
+	padding-top: 7px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+}
+
+/* About Us */
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 10px auto;
+	padding: 5px 30px;
+	width: 800px;
+	box-shadow: 0 0 5px black;
+  }
+
+  .hr {
+	display: flex;
+	align-items: center;
+  }
+
+  hr {
+	width: 30px;
+	height: 1px;
+	background: black;
+	margin: 0 15px;
+  }
+
+  h3{
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+  }
+
+  .mission-txt {
+	font-size: 18px;
+	font-weight: 500px;
+	font-style: italic;
+	margin-top: 0;
+  }
